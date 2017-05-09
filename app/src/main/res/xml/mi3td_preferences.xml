@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res/net.tonyliu.mi3setting"
+    xmlns:app="http://schemas.android.com/apk/res/com.guai.mi3setting"
     >
 
     <PreferenceCategory
@@ -15,7 +15,7 @@
             android:entryValues="@array/cnr_values"
             android:key="persist.audio.vns.mode"/>
 
-        <net.tonyliu.mi3setting.ForceFastChargePreference
+        <com.guai.mi3setting.ForceFastChargePreference
             android:key="persist.force_fast_charge"
             android:icon="@drawable/ic_battery"
             android:title="@string/force_fast_charge"
@@ -26,7 +26,7 @@
     <PreferenceCategory
         android:title="@string/category_workarounds">
 
-        <net.tonyliu.mi3setting.BasebandResetPreference
+        <com.guai.mi3setting.BasebandResetPreference
             android:icon="@drawable/ic_sim_card"
             android:title="@string/baseband_reset"
             android:dialogIcon="@drawable/ic_warning"
@@ -54,7 +54,7 @@
     <PreferenceCategory
         android:title="@string/category_advanced">
 
-        <net.tonyliu.mi3setting.SystemSwitchPreference
+        <com.guai.mi3setting.SystemSwitchPreference
             android:icon="@drawable/ic_sim_card"
             android:title="@string/systemswitch_title"
             android:summary="Current system is X"
@@ -85,7 +85,7 @@
                     android:data="@string/link_weibo" />
         </Preference>
 
-        <net.tonyliu.mi3setting.AlipayDonate
+        <com.guai.mi3setting.AlipayDonate
             app:code="@string/alipay_donate_code"
             android:icon="@drawable/ic_gas_station"
             android:title="@string/alipay_donate"
@@ -94,14 +94,14 @@
             android:dialogMessage="@string/alipay_donate_confirmmessage"
             />
 
-        <net.tonyliu.mi3setting.GroupPreference
+        <com.guai.mi3setting.GroupPreference
             app:code="@string/link_qqgroup_open"
             android:icon="@drawable/ic_group_add"
             android:title="@string/link_qqgroup_open_text"
             android:summary="@string/link_qqgroup_open_summary"
             />
 
-        <net.tonyliu.mi3setting.GroupPreference
+        <com.guai.mi3setting.GroupPreference
             app:code="@string/link_qqgroup_closed"
             android:icon="@drawable/ic_group_add"
             android:title="@string/link_qqgroup_closed_text"

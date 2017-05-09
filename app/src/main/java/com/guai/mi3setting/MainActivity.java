@@ -1,4 +1,4 @@
-package net.tonyliu.mi3setting;
+package com.guai.mi3setting;
 
 import android.Manifest;
 import android.app.Activity;
